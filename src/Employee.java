@@ -8,7 +8,7 @@ import javax.swing.table.DefaultTableModel;
 
 
 public class Employee {
-    private JPanel Main;
+    JPanel Main;
     private JTextField txtName;
     private JTextField txtSalary;
     private JTextField txtMobile;
@@ -21,6 +21,7 @@ public class Employee {
     private JScrollPane table_1;
 
     public static void main(String[] args) {
+
         JFrame frame = new JFrame("Employee");
         frame.setContentPane(new Employee().Main);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
