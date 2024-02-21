@@ -9,7 +9,6 @@ public class Main {
         loginForm.setVisible(false);
         JFrame frame = new JFrame("Employee");
         frame.setContentPane(new Employee().Main);
-   //     frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.pack();
         frame.setVisible(true);
         }

@@ -50,22 +50,7 @@ public class Employee {
         }
     }
 
-// display table didn't work
 
-    /*
-
-    void table_load() {
-        try {
-            pst = con.prepareStatement("select * from employee");
-            ResultSet rs = pst.executeQuery();
-            table1.setModel(DbUtils.resultSetToTableModel(rs));
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
-    }
-*/
-
-// display table
     void table_load() {
         try {
             pst = con.prepareStatement("select * from employee");
@@ -78,6 +63,7 @@ public class Employee {
             table1.setModel(tableModel);
         } catch (SQLException e) {
             e.printStackTrace();
+
         }
     }
 
