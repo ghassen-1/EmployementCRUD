@@ -4,10 +4,16 @@ This Java application is designed for Employee Management, allowing users to per
 
 ## Features
 
-- **Create:** Add new employee records to the database with relevant details such as name, designation, department, etc.
+- **Create:** Add new employee records to the database with relevant details such as name, salary, phone, etc.
 - **Read:** View and retrieve employee records from the database, displaying them in a table format for easy access.
 - **Update:** Edit and update existing employee records with updated information as needed.
 - **Delete:** Remove employee records from the database, ensuring data integrity and management.
+  
+## Screenshots
+
+<img src="/meta/crud2.png" />
+
+  
 
 ## Technologies Used
 
@@ -18,4 +24,28 @@ This Java application is designed for Employee Management, allowing users to per
 
 ## Installation
 
-1. Clone the repository to your local machine using Git:
+1. Clone the repository to your local machine using Git
+
+2. Import the project into your Java IDE (e.g., IntelliJ IDEA, Eclipse).
+
+3. Ensure that you have PHPMyAdmin or a MySQL database server set up for database management.
+
+4. Configure the database connection settings in the application code to connect to your MySQL database.
+
+5. Run the application and start managing employee records!
+
+## Usage
+
+- Launch the application and navigate through the GUI to perform CRUD operations on employee records.
+- Use the navigation buttons and input fields to add, view, edit, and delete employee records as needed.
+- Ensure that you have a stable internet connection and the MySQL database server is running for seamless database operations.
+
+## Contributing
+
+Contributions are welcome! If you find any bugs or have suggestions for improvements, please feel free to open an issue or submit a pull request.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE), which allows for both personal and commercial use with proper attribution.
+
+
