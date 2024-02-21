@@ -24,7 +24,7 @@ This Java application is designed for Employee Management, allowing users to per
 
 ## Installation
 
-1. Clone the repository to your local machine using Git
+1. Clone the repository to your local machine using Git:https://github.com/ghassen-1/EmployementCRUD.git
 
 2. Import the project into your Java IDE (e.g., IntelliJ IDEA, Eclipse).
 
